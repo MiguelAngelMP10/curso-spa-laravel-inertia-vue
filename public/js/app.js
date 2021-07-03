@@ -20862,7 +20862,7 @@ var _hoisted_12 = {
 };
 var _hoisted_13 = {
   type: "button",
-  "class": "\r\n                          inline-flex\r\n                          items-center\r\n                          px-3\r\n                          py-2\r\n                          border border-transparent\r\n                          text-sm\r\n                          leading-4\r\n                          font-medium\r\n                          rounded-md\r\n                          text-gray-500\r\n                          bg-white\r\n                          hover:bg-gray-50\r\n                          hover:text-gray-700\r\n                          focus:outline-none\r\n                          focus:bg-gray-50\r\n                          active:bg-gray-50\r\n                          transition\r\n                        "
+  "class": "\n                          inline-flex\n                          items-center\n                          px-3\n                          py-2\n                          border border-transparent\n                          text-sm\n                          leading-4\n                          font-medium\n                          rounded-md\n                          text-gray-500\n                          bg-white\n                          hover:bg-gray-50\n                          hover:text-gray-700\n                          focus:outline-none\n                          focus:bg-gray-50\n                          active:bg-gray-50\n                          transition\n                        "
 };
 
 var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("svg", {
@@ -20929,7 +20929,7 @@ var _hoisted_24 = {
 };
 var _hoisted_25 = {
   key: 0,
-  "class": "\r\n                        flex\r\n                        text-sm\r\n                        border-2 border-transparent\r\n                        rounded-full\r\n                        focus:outline-none\r\n                        focus:border-gray-300\r\n                        transition\r\n                      "
+  "class": "\n                        flex\n                        text-sm\n                        border-2 border-transparent\n                        rounded-full\n                        focus:outline-none\n                        focus:border-gray-300\n                        transition\n                      "
 };
 var _hoisted_26 = {
   key: 1,
@@ -20937,7 +20937,7 @@ var _hoisted_26 = {
 };
 var _hoisted_27 = {
   type: "button",
-  "class": "\r\n                          inline-flex\r\n                          items-center\r\n                          px-3\r\n                          py-2\r\n                          border border-transparent\r\n                          text-sm\r\n                          leading-4\r\n                          font-medium\r\n                          rounded-md\r\n                          text-gray-500\r\n                          bg-white\r\n                          hover:text-gray-700\r\n                          focus:outline-none\r\n                          transition\r\n                        "
+  "class": "\n                          inline-flex\n                          items-center\n                          px-3\n                          py-2\n                          border border-transparent\n                          text-sm\n                          leading-4\n                          font-medium\n                          rounded-md\n                          text-gray-500\n                          bg-white\n                          hover:text-gray-700\n                          focus:outline-none\n                          transition\n                        "
 };
 
 var _hoisted_28 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("svg", {
@@ -21068,6 +21068,10 @@ var _hoisted_57 = {
 };
 var _hoisted_58 = {
   "class": "max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8"
+};
+var _hoisted_59 = {
+  key: 0,
+  "class": "bg-blue-500 text-white text-sm font-bold p-4"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_jet_banner = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("jet-banner");
@@ -21251,7 +21255,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onClick: _cache[2] || (_cache[2] = function ($event) {
       return $data.showingNavigationDropdown = !$data.showingNavigationDropdown;
     }),
-    "class": "\r\n                  inline-flex\r\n                  items-center\r\n                  justify-center\r\n                  p-2\r\n                  rounded-md\r\n                  text-gray-400\r\n                  hover:text-gray-500\r\n                  hover:bg-gray-100\r\n                  focus:outline-none\r\n                  focus:bg-gray-100\r\n                  focus:text-gray-500\r\n                  transition\r\n                "
+    "class": "\n                  inline-flex\n                  items-center\n                  justify-center\n                  p-2\n                  rounded-md\n                  text-gray-400\n                  hover:text-gray-500\n                  hover:bg-gray-100\n                  focus:outline-none\n                  focus:bg-gray-100\n                  focus:text-gray-500\n                  transition\n                "
   }, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("svg", _hoisted_35, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
     "class": {
       hidden: $data.showingNavigationDropdown,
@@ -21409,7 +21413,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* STABLE_FRAGMENT */
   )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])])], 2
   /* CLASS */
-  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Page Heading "), _ctx.$slots.header ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("header", _hoisted_57, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_58, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "header")])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Page Content "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")])])]);
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Page Heading "), _ctx.$slots.header ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("header", _hoisted_57, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_58, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "header")])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Page Content "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("main", null, [_ctx.$page.props.flash.status ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_59, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.$page.props.flash.status), 1
+  /* TEXT */
+  )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")])])]);
 }
 
 /***/ }),
